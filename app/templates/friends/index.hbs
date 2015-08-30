@@ -1,0 +1,8 @@
+<h4>Friends Index</h4>
+
+
+{{#each friend in model}}
+  <li> {{#link-to 'friends.show' friend}} {{friend.fullName}} {{/link-to}} </li>
+  <a href ='#' {{action 'delete' friend}}> Delete Friend </a>
+
+{{/each}}
