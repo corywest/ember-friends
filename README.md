@@ -1,7 +1,6 @@
 # Ember CLI Friends Application
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A simple CRUD application built with Ember CLI, a command line utility tool. Here you'll be able to use a public facing API to display, add, edit, and delete friends. 
 
 ## Prerequisites
 
